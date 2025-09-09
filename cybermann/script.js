@@ -19,19 +19,15 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-<script>
-  function openWhatsApp() {
-    // Replace with your number in international format
-    window.open("https://wa.me/2349050555065?text=Hello Cybermann, I need your services.", "_blank");
-  }
+// CONTACT BUTTONS
+function openWhatsApp() {
+  window.open("https://wa.me/2349050555065?text=Hello Cybermann, I need your services.", "_blank");
+}
 
-  function makeCall() {
-    // Replace with your business number
-    window.location.href = "tel:+2349050555065";
-  }
+function makeCall() {
+  window.location.href = "tel:+2349050555065";
+}
 
-  function sendEmail() {
-    // Replace with your email
-    window.location.href = "mailto:intelligentt102@gmail.com?subject=Cybermann Inquiry&body=Hi, I’m interested in your services.";
-  }
-</script>
+function sendEmail() {
+  window.location.href = "mailto:intelligentt102@gmail.com?subject=Cybermann Inquiry&body=Hi, I’m interested in your services.";
+}
