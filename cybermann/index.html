@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybermann – Premium Tech Services</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- HEADER NAVIGATION -->
+  <header class="cm-nav">
+    <div class="cm-nav__container">
+      
+      <!-- LOGO -->
+      <div class="logo">Cybermann</div>
+
+      <!-- NAV LINKS -->
+      <ul id="cm-nav" class="cm-nav__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- HAMBURGER (mobile only) -->
+      <button id="cm-menu-toggle" class="cm-burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+    </div>
+  </header>
+
+
+
+
+
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Your Military-Grade Tech Partner</h2>
+        <p>Cybersecurity. Web Development. Email & SMTP Setup.</p>
+        <a href="#contact" class="btn">Get Free Consultation</a>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services" aria-labelledby="services-heading">
+      <div class="container">
+        <h3 id="services-heading">Our Services</h3>
+        <div class="service-cards">
+          <div class="card">
+            <h4>Cybersecurity</h4>
+            <p>Protect your systems and websites with expert-level protection.</p>
+          </div>
+          <div class="card">
+            <h4>Web Development</h4>
+            <p>Premium websites built from scratch with performance and design in mind.</p>
+          </div>
+          <div class="card">
+            <h4>Email & SMTP Setup</h4>
+            <p>Professional email delivery solutions with verified domain setups.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2>Case Studies</h2>
+        <p>See how Cybermann has helped real businesses protect their data, grow online, and improve performance.</p>
+        <div class="portfolio-grid">
+          <div class="case-study">
+            <h3>Secure Email Setup for Real Estate Firm</h3>
+            <p>Configured SPF, DKIM, and DMARC to secure client emails and prevent fraud. Delivered in 48 hours.</p>
+          </div>
+          <div class="case-study">
+            <h3>E-Commerce Web Dev for Lagos Brand</h3>
+            <p>Built a fast, secure, mobile-first shopping site with integrated payment system. Increased sales by 30%.</p>
+          </div>
+          <div class="case-study">
+            <h3>Cybersecurity Audit for NGO in Canada</h3>
+            <p>Identified vulnerabilities, removed malware, and trained their team on cyber hygiene best practices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Cybermann</h2>
+        <p class="about-text">
+          At <strong>Cybermann</strong>, we specialize in premium cybersecurity solutions, elite-level web development, and advanced email/SMTP configurations. Founded by a tech visionary with a military mindset, our mission is to protect businesses online, build powerful digital products, and ensure secure communications across the world.
+        </p>
+        <p class="about-text">
+          With a background in ethical hacking, digital infrastructure, and global remote freelance work, Cybermann is built on integrity, innovation, and intelligence. We don't just build websites or set up emails—we build fortified digital strongholds for your brand.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h3>🛡 Cybersecurity</h3>
+            <p>Penetration testing, network defense, threat monitoring, and hardening services.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>💻 Web Development</h3>
+            <p>Modern, responsive websites and fullstack apps tailored to your business goals.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>📨 Email & SMTP Setup</h3>
+            <p>Professional and secure business emails with advanced SMTP configuration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-wrapper">
+        <div class="contact-header">
+          <h2>Contact <span>Cybermann</span></h2>
+          <p>Let’s secure your systems and scale your business — reach out today.</p>
+        </div>
+        <form class="contact-form">
+          <div class="input-row">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <h2>What Clients Say</h2>
+      <div class="testimonial-cards">
+        <div class="testimonial">
+          <p>"Cybermann helped secure our entire system within 48 hours. Unbelievable!"</p>
+          <h4>— Faith Adekunle</h4>
+          <span>Tech Startup • Cybersecurity</span>
+        </div>
+        <div class="testimonial">
+          <p>"Our email delivery rate doubled after he optimized our SMTP setup."</p>
+          <h4>— Kingsley Umeh</h4>
+          <span>eCommerce Brand • SMTP & Email Setup</span>
+        </div>
+        <div class="testimonial">
+          <p>"His web design changed how clients see us. Clean, fast, and pro."</p>
+          <h4>— Linda Okon</h4>
+          <span>Law Firm • Web Development</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FLOATING CONTACT BUTTONS -->
+  <div class="cm-contact-group">
+    <button class="contact-floating" onclick="openWhatsApp()">💬 Free Consultation</button>
+    <button class="contact-floating call-btn" onclick="makeCall()">📞 Call Us</button>
+    <button class="contact-floating email-btn" onclick="sendEmail()">📧 Email Us</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Cybermann. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- LINK TO JAVASCRIPT -->
+  <script src="js/script.js"></script>
+</body>
+</html>
